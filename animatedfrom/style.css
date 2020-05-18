@@ -1,0 +1,111 @@
+#body{
+
+  background-color:#555;
+  height:100%;
+}
+form{
+  max-width: 350px;
+  width:100%;
+  margin : 40px auto;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 5px 5px 0 rgba(50,50,50,0.7);
+}
+.container{
+margin-top: 30px;
+
+}
+.wrapper::before, .wrapper::after{
+  background: #fff none repeat scroll 0 0;
+  border:1px solid #ccc;
+  content: "";
+  height:100%;
+
+  left:0;
+  position: absolute;
+  top:3.5px;
+  transform: rotateZ(8deg);
+   width:100%;
+ z-index:-1;
+}
+.form-group{
+  padding: 10px 0;
+  position:relative;
+  margin-bottom: 0;
+}
+.form-control, .form-control:focus{
+  border:none;
+  box-shadow:none;
+  padding-left: 0;
+  border-bottom: 1px solid rgba(0,0,0,26);
+  border-radius: 0;
+
+}
+label{
+  position: absolute;
+  width:100%;
+  left:0;
+  right:0;
+  bottom:0;
+  overflow:hidden;
+  top:1px;
+  color:rgba(0,0,0,0.26);
+
+  font:bold 25px serif;
+  margin-top:5px;
+  margin-left:5px;
+
+}
+ form h2{
+  color:#fff;
+  text-align: center;
+  text-transform: uppercase;margin-bottom: 20px;
+  background: #00a4a0;
+  padding:2px 0;
+  font-family: sans-serif;
+}
+
+ .btn{
+  background: #00a4a0;
+  border:none;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 400px;
+  width:60%;
+  height: 100%;
+  margin:0 auto;
+  display:block;
+}
+.btn:hover, .btn:focus{
+  background: #00a4a2;
+}
+
+.slidedown{
+  animation-duration: 1.5s;
+  animation-name: slidedown;
+
+  animation-timing-function: ease;
+  visibility: visible;
+}
+@keyframes slidedown {
+0%{
+  transform: translateY(-100%);
+}
+50%{
+  transform: translateY(8%);
+}
+65%{
+  transform: translateY(-4%);
+}
+80%{
+  transform: translateY(4%);
+}
+95%{
+  transform: translateY(-2%);
+}
+100%{
+  transform: translateY(0%);
+}
+
+
+}
