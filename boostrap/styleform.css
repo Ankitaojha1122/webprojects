@@ -1,0 +1,38 @@
+
+  body{
+    background-color:rgba(0,0,0,0.5);
+    font-size: 25px;
+    font-style: normal;
+    font-family: serif;
+    font-weight: 200px;
+  }
+  hr{
+   background-color: white;
+   border-style: none;
+   border-top-style: dotted;
+   border-width: 5px;
+   width:20%;
+  }
+.text{
+  padding: 10px;
+  height: 30px;
+  width:300px;
+}
+.button{
+  margin:10px;
+  padding: 20px;
+  height: 5px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+
+
+}
+div{
+  background-color: #fff;
+  margin:auto;
+  padding: 20px;
+  width:700px;
+}
